@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align: center;  
+}
+header{
+    background-color: black;
+    padding: 10px;
+    font-size: 1.3em;
+    color: #f0c400;    
+}
+body{
+     background-color: #222222;
+     font: normal 1.1em Cambria,Cochin, serif;
+     color: #ffffff;
+}
+h2{
+    font-size: 1.6em;
+    padding: 15px;
+}
+h3{
+    padding: 40px;
+    font-size: 1.6em;
+}
+a{
+    color: #ffffff;   
+}
+li{
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 40px;
+    list-style: none;
+}
+span{
+    position:absolute;
+    right: 10%;
+}
+.apresentacao{
+    height:350px;
+    background-size: cover;
+    max-width: 1000px;
+    margin: auto;
+    background-position: center center;
+}
+.cardapio{
+    height:300px;
+    background-size:cover; 
+    background-position: center center; 
+    background-attachment: fixed;
+    max-width: 1200px; 
+    margin: auto;
+    box-shadow: inset 5px 4px 6px black;
+    text-shadow: 3px 3px 2px black;
+}
+#quemsomos{    
+    padding-bottom: 30px;
+    max-width: 600px;
+    margin: auto;
+}
+#restaurante{
+    background-image: url(archives/ristorant.jpg);
+}
+#musica{
+    background-image: url(archives/musica.jpg);
+}
+#refeicao{
+    background-image: url(archives/comida.jpg);
+}
+#refeicao{
+    background-image: url(archives/comida.jpg);
+}
+#petiscos{
+    background-image: url(archives/petiscos.jpg);
+}
+#drinks{
+    background-image: url(archives/drink.jpg);
+}
+footer{
+    background-color: black;
+    font-weight: bold;
+}
