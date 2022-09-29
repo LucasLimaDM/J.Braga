@@ -7,7 +7,12 @@ header{
     background-color: black;
     padding: 10px;
     font-size: 1.3em;
-    color: #f0c400;    
+    color: #f0c400;
+}
+header>p{
+    color: #dddddd;
+    font-weight: bolder;
+    font-size: 1.3rem;
 }
 body{
      background-color: #222222;
@@ -19,7 +24,7 @@ h2{
     padding: 15px;
 }
 h3{
-    padding: 40px;
+    padding: 20px;
     font-size: 1.6em;
 }
 p{
@@ -31,7 +36,7 @@ a{
 li{
     text-align: left;
     font-size: 20px;
-    padding: 10px;
+    padding: 6px;
     margin-left: 40px;
     list-style: none;
 }
@@ -47,37 +52,30 @@ span{
     background-position: center center;
 }
 .cardapio{
-    height:300px;
     background-size:cover; 
     background-position: center center; 
     background-attachment: fixed;
     max-width: 1200px; 
     margin: auto;
-    box-shadow: inset 5px 4px 6px black;
-    text-shadow: 3px 3px 2px black;
+    box-shadow: inset 2px 3px 5px #030303;
+    text-shadow: 1px 2px 2px black;
 }
 #quemsomos{    
     padding-bottom: 30px;
     max-width: 600px;
     margin: auto;
+
 }
 #restaurante{
-    background-image: url(archives/ristorant.jpg);
-}
-#musica{
-    background-image: url(archives/musica.jpg);
-}
-#refeicao{
-    background-image: url(archives/comida.jpg);
-}
-#refeicao{
-    background-image: url(archives/comida.jpg);
+    background-image: url(archives/restaurante2.jpg) ;
 }
 #petiscos{
-    background-image: url(archives/petiscos.jpg);
+    background-image: url(archives/petiscos2.jpg);
+    margin-bottom: 70px;
+    
 }
 #drinks{
-    background-image: url(archives/drink.jpg);
+    background-image: url(archives/corona.jpg);
 }
 footer{
     background-color: black;
