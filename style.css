@@ -47,7 +47,7 @@ span{
 .apresentacao{
     height:350px;
     background-size: cover;
-    max-width: 1000px;
+    
     margin: auto;
     background-position: center center;
 }
@@ -55,7 +55,7 @@ span{
     background-size:cover; 
     background-position: center center; 
     background-attachment: fixed;
-    max-width: 1200px; 
+     
     margin: auto;
     box-shadow: inset 2px 3px 5px #030303;
     text-shadow: 1px 2px 2px black;
