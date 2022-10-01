@@ -34,14 +34,14 @@ a{
     color: #ffffff;   
 }
 li{
-    
     font-size: 20px;
-    padding: 5px 0px 5px 0px;
+    padding:4px 0px 4px 0px;
     list-style: none;
+    text-align: left;
 }
 ul{
     display: inline-block;
-    width: 200px;
+    width: 40vw;
     
 }
 .apresentacao{
@@ -59,25 +59,28 @@ ul{
     margin: auto;
     box-shadow: inset 2px 3px 5px #030303;
     text-shadow: 1px 2px 2px black;
+    padding-bottom: 15px;
 }
 #quemsomos{    
     padding-bottom: 30px;
-    max-width: 70vw;
+    max-width: 90vw ;
     margin: auto;
 
 }
 .nomes{
     text-align: left;
+    margin-right: 1.5vw;
 }
 .valor{
+    margin-left: 1.5vw;
     text-align: right;
 }
 
 #restaurante{
-    background-image: url(archives/restaurante2.jpg) ;
+    background-image: url(archives/restaurante.png) ;
 }
 #petiscos{
-    background-image: url(archives/petiscos2.jpg);
+    background-image: url(archives/petiscos.jpg);
     margin-bottom: 50px;
     
 }
