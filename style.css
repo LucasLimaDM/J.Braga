@@ -34,15 +34,15 @@ a{
     color: #ffffff;   
 }
 li{
-    text-align: left;
+    
     font-size: 20px;
-    padding: 6px;
-    margin-left: 40px;
+    padding: 5px 0px 5px 0px;
     list-style: none;
 }
-span{
-    position:absolute;
-    right: 10%;
+ul{
+    display: inline-block;
+    width: 200px;
+    
 }
 .apresentacao{
     height:350px;
@@ -55,23 +55,30 @@ span{
     background-size:cover; 
     background-position: center center; 
     background-attachment: fixed;
-     
+    text-align: center;
     margin: auto;
     box-shadow: inset 2px 3px 5px #030303;
     text-shadow: 1px 2px 2px black;
 }
 #quemsomos{    
     padding-bottom: 30px;
-    max-width: 600px;
+    max-width: 70vw;
     margin: auto;
 
 }
+.nomes{
+    text-align: left;
+}
+.valor{
+    text-align: right;
+}
+
 #restaurante{
     background-image: url(archives/restaurante2.jpg) ;
 }
 #petiscos{
     background-image: url(archives/petiscos2.jpg);
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     
 }
 #drinks{
